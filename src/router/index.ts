@@ -1,7 +1,7 @@
 import express from "express";
 import register from "../authentication/router";
 import users from "../users/router";
-import risas from "../risas/router";
+import risas from "../campaign/router";
 
 const router = express.Router();
 
